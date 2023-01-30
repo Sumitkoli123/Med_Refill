@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Medrefill Web App]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.medevantage.medrefill.utility.ListenerTest"/>
+  </listeners>
+  <test thread-count="5" name="Request Prescription Refill and Message Your Provider(failed)">
+    <classes>
+      <class name="com.medevantage.medrefill.testCase.MessagYourProvider_Test">
+        <methods>
+          <include name="enterYourOTP"/>
+          <include name="teardown"/>
+          <include name="patientVerification"/>
+          <include name="messageYourProvider"/>
+          <include name="setupBrowser"/>
+        </methods>
+      </class> <!-- com.medevantage.medrefill.testCase.MessagYourProvider_Test -->
+    </classes>
+  </test> <!-- Request Prescription Refill and Message Your Provider(failed) -->
+</suite> <!-- Failed suite [Medrefill Web App] -->

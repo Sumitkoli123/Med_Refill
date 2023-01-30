@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Medrefill Web App" parallel="none">
+	<listeners>
+		<listener class-name="com.medevantage.medrefill.utility.ListenerTest"/>
+	</listeners>
+	
+	<test thread-count="5" name="Request Prescription Refill and Message Your Provider">
+		<classes>
+			<class name="com.medevantage.medrefill.testCase.PatientVerification_Test"/>
+            <class name="com.medevantage.medrefill.testCase.VerifyOTP_Test"/>
+            <class name="com.medevantage.medrefill.testCase.RequestPrescriptionRefill_Test"/>
+            <class name="com.medevantage.medrefill.testCase.MessagYourProvider_Test"/> 
+		</classes>
+	</test>
+	
+</suite>
+

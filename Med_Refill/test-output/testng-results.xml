@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-24T13:37:08 IST" name="Default suite" finished-at="2023-01-24T13:37:37 IST" duration-ms="29455">
+    <groups>
+    </groups>
+    <test started-at="2023-01-24T13:37:08 IST" name="Default test" finished-at="2023-01-24T13:37:37 IST" duration-ms="29455">
+      <class name="com.medevantage.medrefill.testCase.PatientVerification_Test">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.medevantage.medrefill.testCase.PatientVerification_Test@6bd61f98]" started-at="2023-01-24T13:36:05 IST" name="setupBrowser" finished-at="2023-01-24T13:37:08 IST" duration-ms="62685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="patientVerification()[pri:0, instance:com.medevantage.medrefill.testCase.PatientVerification_Test@6bd61f98]" started-at="2023-01-24T13:37:08 IST" name="patientVerification" finished-at="2023-01-24T13:37:37 IST" duration-ms="29394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patientVerification -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.medevantage.medrefill.testCase.PatientVerification_Test@6bd61f98]" started-at="2023-01-24T13:37:38 IST" name="teardown" finished-at="2023-01-24T13:37:44 IST" duration-ms="6436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.medevantage.medrefill.testCase.PatientVerification_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
