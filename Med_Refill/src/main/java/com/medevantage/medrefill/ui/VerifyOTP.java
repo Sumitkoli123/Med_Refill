@@ -26,20 +26,21 @@ public class VerifyOTP {
 	
 	By getOTPText = By.xpath("//span[contains(text(),'Your Medevantage OTP Service verification code is:')]"); //Dev env 
 
-	By firstOtp = By.xpath("//input[@id='ngx-otp-input-0']"); //input[@name='firstOtp']
+	By firstOtp = By.xpath("//input[@id='ngx-otp-input-0']"); 
 
-	By secondOtp = By.xpath("//input[@id='ngx-otp-input-1']"); //input[@name='secondOtp']
+	By secondOtp = By.xpath("//input[@id='ngx-otp-input-1']"); 
 
-	By thirdOtp = By.xpath("//input[@id='ngx-otp-input-2']");  //input[@name='thirdOtp']
+	By thirdOtp = By.xpath("//input[@id='ngx-otp-input-2']");  
 
-	By fourthOtp = By.xpath("//input[@id='ngx-otp-input-3']");  //input[@name='fourthOtp']
+	By fourthOtp = By.xpath("//input[@id='ngx-otp-input-3']");  
 
-	By fifthOtp = By.xpath("//input[@id='ngx-otp-input-4']");  //input[@name='fifthOtp']
+	By fifthOtp = By.xpath("//input[@id='ngx-otp-input-4']");  
 
-	By sixthOtp = By.xpath("//input[@id='ngx-otp-input-5']"); //input[@name='sixthOtp']
+	By sixthOtp = By.xpath("//input[@id='ngx-otp-input-5']"); 
 
 	By nextButton = By.xpath("//button[text()='Next']");
 
+	
 	public void enterEmail(String email) {
 		WebElement usereMail = driver.findElement(enterEmail);
 		           usereMail.clear();
